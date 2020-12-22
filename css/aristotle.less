@@ -1,0 +1,155 @@
+//out: aristotle.css
+
+@grey: #eee;
+
+p{
+    font-size: 1.3rem;
+}
+
+.navbar-collapse.in {
+    display: block !important;
+}
+
+.nav-link{
+    color: #eee;  
+    padding: 8px 20px !important;
+    font-weight: 500;
+    color: #444 !important;
+    &:hover{
+        background: @grey;
+        transition: 1s;
+    }
+    &:active{
+        background: @grey;
+    }
+}
+
+
+
+nav{
+    border-bottom: 1px solid @grey;
+    padding: 0px 20px;
+}
+
+.sectionOne{
+    background-image: url("../images/bg.png");
+}
+
+.sectionOneDiv{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px ;
+    text-align: center;
+    div h2{
+        color: white;
+        font-weight: bold;
+        font-size: 2.1rem;
+        font-family: "Open Sans";
+        margin-bottom: 2rem;
+    }
+    div p{
+        color: #eee;
+    }
+}
+
+.flex-just{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sectionTwo{
+    padding: 50px;
+    background-color: white;
+}
+
+.sectionThree{
+    padding: 50px;
+    background-color: @grey;
+}
+
+
+.sectionFour{
+    background-image: url("../images/bg2.png");
+}
+
+.sectionFourDiv{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 40px ;
+    text-align: center;
+
+}
+
+footer{
+    background: #222;
+    
+    padding: 40px 0px;
+    h2{
+        color: white;
+    }
+    p{
+        color: #eee;
+    }
+}
+
+.sectionHead{
+    background-image: url("../images/bg.png");
+}
+
+.sectionHeadDiv{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 60px 0px;
+    color: white;
+}
+
+.bodyText{
+    font-size: 1.2rem;
+}
+.headText{
+    text-align: center;
+}
+
+.tableblue { 
+    border:1px solid #BABAEC; 
+    margin: 0 auto;
+}
+
+.largeSection{
+    font-size: 18px;
+}
+
+.lftAlign{
+    text-align:left;
+}
+
+.rtAlign{
+    text-align:right; 
+}
+
+td{
+    padding:5px;
+}
+
+.btn2 {
+    border: none;
+	border-radius: 5px;
+	background: #028bad;
+	cursor: pointer;
+	display: table-cell;
+    vertical-align: middle;
+	font: normal 15px Arial, Helvetica;
+	color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    &:hover{
+        background: #016b2d;
+        transition: 500ms;
+    }
+}
+    
+.fa-brand{
+    font-family: "Font Awesome 5 Brands";
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
